@@ -1,0 +1,22 @@
+﻿# 1D kalman filter
+ * 수식
+   * initial state
+   * 내부 belief
+ * 평면에서 이동하는 robot
+   * x, y, yaw
+ * kalman filter 기본
+   * initial estimate (처음 1회)
+   * state prediction
+   * measurement update
+
+ * control action
+   * movement와 같은 control action은 환경의 state를 변경
+
+## measurement update
+ * mean : 이전 믿음의 평균
+ * variance : 이전 믿음의 편차
+
+ * mean : 측정 평균
+ * variance : 측정 편차
+
+
